@@ -16,10 +16,10 @@ let zucchine_contenitore = [
     { tipo: 2, pesoGr: 50, lunghezzaCm: 12 },
     { tipo: 3, pesoGr: 50, lunghezzaCm: 14 },
     { tipo: 4, pesoGr: 50, lunghezzaCm: 15 },
-    { tipo: 5, peso: 50, lunghezzaCm: 16 },
-    { tipo: 6, peso: 50, lunghezzaCm: 17 },
-    { tipo: 7, peso: 50, lunghezzaCm: 18 },
-    { tipo: 8, peso: 50, lunghezzaCm: 19 },
+    { tipo: 5, pesoGr: 50, lunghezzaCm: 16 },
+    { tipo: 6, pesoGr: 50, lunghezzaCm: 17 },
+    { tipo: 7, pesoGr: 50, lunghezzaCm: 18 },
+    { tipo: 8, pesoGr: 50, lunghezzaCm: 19 },
 ]
 
 let zuc_corte = []; 
@@ -35,7 +35,7 @@ for (let i = 0; i < zucchine_contenitore.length; i++) {
     if (zucchine_contenitore[i].lunghezzaCm < 15){
         zuc_corte.push(zucchine_contenitore[i]);
         zuc_corte_peso += zucchine_contenitore[i].pesoGr;
-        
+
         //if else into long zucchine
     } else {
         zuc_lunghe.push(zucchine_contenitore[i]);
