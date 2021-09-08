@@ -7,13 +7,13 @@
 
 
 function mergeArray(arrUno, arrDue) {
-    let arrTre = [];
+    let arrFusione = [];
     for (let i = 0; i < arrUno.length; i++) {
-        arrTre.push(arrUno[i]);
-        arrTre.push(arrDue[i]);
+        arrFusione.push(arrUno[i]);
+        arrFusione.push(arrDue[i]);
     }
 
-    return tre;
+    return arrFusione;
 
 }   
 
