@@ -5,5 +5,13 @@
 
 let zucchineContenitore = [
     { pesoGr: 50, lunghezzaCm: 20},
-   
+    { pesoGr: 50, lunghezzaCm: 20},
+    { pesoGr: 50, lunghezzaCm: 20},
+    { pesoGr: 50, lunghezzaCm: 20},
+    { pesoGr: 50, lunghezzaCm: 20},
+    { pesoGr: 50, lunghezzaCm: 20},
+    { pesoGr: 50, lunghezzaCm: 20 },
+    { pesoGr: 50, lunghezzaCm: 20 },
+    { pesoGr: 50, lunghezzaCm: 20 },
+    { pesoGr: 50, lunghezzaCm: 20 },
 ]
