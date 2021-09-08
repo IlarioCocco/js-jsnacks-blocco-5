@@ -5,20 +5,21 @@
 // snack 4
 
 
-let uno = ["a", "b", "c"];
 
-let due = [1, 2, 3];
-
-let tre = [];
-
-function tre(uno, due) {
-    let tre = [];
-    for(let i= 0; i< uno.length; i++) {
-        tre.push(uno[i]);
-        tre.push(due[i]);
+function mergeArray(arrUno, arrDue) {
+    let arrTre = [];
+    for (let i = 0; i < arrUno.length; i++) {
+        arrTre.push(arrUno[i]);
+        arrTre.push(arrDue[i]);
     }
+
+    return tre;
+
 }   
 
 
-Tre.push();
-console.log(Uno, Due);
+let arrUno = ["a", "b", "c"];
+
+let arrDue = [1, 2, 3];
+
+console.log(mergeArray(arrUno, arrDue));
