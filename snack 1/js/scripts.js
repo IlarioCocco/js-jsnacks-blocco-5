@@ -22,9 +22,6 @@ for (let i= 0;  i< zucchineContenitore.length; i++){
     totalePeso += zucchineContenitore[i].pesoGr;
 }
 
-console.log(totalePeso);
-// let totalePeso= 0;
+console.log("il peso totale è di :" + " " + totalePeso);
+console.log("il peso totale è di :" + " " + typeof totalePeso + totalePeso); //verifica di totale peso con typeof (stringa o numero?)
 
-// let pesoGr = 50
-// let lunghezzaCm = 20
-// let zucchineSomma = pesoGr + 100;
