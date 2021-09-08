@@ -10,7 +10,7 @@
 // Infine stampa separatamente quanto pesano i due gruppi di zucchine.
 
 
-let zucchineContenitore = [
+let zucchine_contenitore = [
     { tipo: 1, pesoGr: 50, lunghezzaCm: 10 },
     { tipo: 2, pesoGr: 50, lunghezzaCm: 12 },
     { tipo: 3, pesoGr: 50, lunghezzaCm: 14 },
@@ -27,7 +27,7 @@ let zuc_lunghe = [];
 let zuc_corte_peso = 0;
 let zuc_lunghe_peso = 0;
 
-for (let i = 0; i < zucchineContenitore.length; i++) {
+for (let i = 0; i < zucchine_contenitore.length; i++) {
     //If it is less than 15 cm Push into the short zucchini array
     if (zucchineContenitore[i].lunghezzaCm < 15){
         zuc_corte.push(zucchineContenitore[i]);
@@ -50,7 +50,6 @@ console.log("zucchine lunghe peso:" + " " + zuc_lunghe_peso);
 //     totalePesoDue += zucchineContenitoreDue[i].peso;
 // }
 // console.log(totalePesoDue);
-
 
 
 // let zucchineContenitoreDue = [
