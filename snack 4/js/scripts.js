@@ -6,7 +6,7 @@
 
 
 
-function mergeArray(arrUno, arrDue) {
+function unisci(arrUno, arrDue) {
     let arrFusione = [];
     for (let i = 0; i < arrUno.length; i++) {
         arrFusione.push(arrUno[i]);
@@ -22,4 +22,5 @@ let arrUno = ["a", "b", "c"];
 
 let arrDue = [1, 2, 3];
 
-console.log(mergeArray(arrUno, arrDue));
+console.log(unisci(arrUno, arrDue));
+alert(unisci(arrUno, arrDue));

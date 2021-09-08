@@ -2,11 +2,12 @@
 // girata(es.Ciao -> oaiC)
 
 function paroleInversa(parola){
-let parolaInversa= "";
-    for( var i = word.length -1; i >= 0; i--){
-        parolaInversa += parola[i];
+    let Inversa= "";
+
+    for( var i = parola.length -1; i >= 0; i--){
+        Inversa += parola[i];
     }
-    return parolaInversa
+    return Inversa
 }
 
 paroleInversa(parolaInversa);
