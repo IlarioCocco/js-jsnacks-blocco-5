@@ -17,18 +17,6 @@ let zucchineContenitore = [
     { tipo: 4, pesoGr: 50, lunghezzaCm: 15 },
 ]
 
-let totalePeso = 0;
-
-for (let i = 0; i < zucchineContenitore.length; i++) {
-    totalePeso += zucchineContenitore[i].pesoGr;
-}
-console.log(totalePeso);
-
-
-
-
-
-
 let zucchineContenitoreDue = [
     { tipo: 5, peso: 50, lunghezzaCm: 16 },
     { tipo: 6, peso: 50, lunghezzaCm: 17 },
@@ -36,11 +24,37 @@ let zucchineContenitoreDue = [
     { tipo: 8, peso: 50, lunghezzaCm: 19 },
     { tipo: 9, peso: 50, lunghezzaCm: 20 },
     { tipo: 10, peso: 50, lunghezzaCm: 21 },
-]
+] 
 
-let totalePesoDue = 0;
 
-for (let i = 0; i < zucchineContenitoreDue.length; i++) {
-    totalePesoDue += zucchineContenitoreDue[i].peso;
+for (let i = 0; i < zucchineContenitore.length; i++) {
+    if (zucchineContenitore[i].lunghezzaCm < 15){
+        zucchineContenitoreDue.push(zucchineContenitore[i]);
+    } else {
+        zucchineContenitore.push(zucchineContenitore[i]);
+    }
 }
-console.log(totalePesoDue);
+
+console.log(zucchineContenitore);
+console.log(zucchineContenitoreDue);
+
+
+
+
+
+// let zucchineContenitoreDue = [
+//     { tipo: 5, peso: 50, lunghezzaCm: 16 },
+//     { tipo: 6, peso: 50, lunghezzaCm: 17 },
+//     { tipo: 7, peso: 50, lunghezzaCm: 18 },
+//     { tipo: 8, peso: 50, lunghezzaCm: 19 },
+//     { tipo: 9, peso: 50, lunghezzaCm: 20 },
+//     { tipo: 10, peso: 50, lunghezzaCm: 21 },
+// ]
+// let totalePesoDue = 0;
+
+// for (let i = 0; i < zucchineContenitoreDue.length; i++) {
+//     totalePesoDue += zucchineContenitoreDue[i].peso;
+// }
+// console.log(totalePesoDue);
+
+
