@@ -10,9 +10,9 @@ function paroleInversa(parola){
     return Inversa
 }
 
-paroleInversa(parolaInversa);
-console.log(parolaInversa);
+let Inversa = paroleInversa;
+console.log(Inversa);
   
 
-let word = prompt("inserisci una parola");
-console.log(word);
+// let word = prompt("inserisci una parola");
+// console.log(word);
