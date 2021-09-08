@@ -1,7 +1,7 @@
 // Scrivi una funzione che accetti una stringa come argomento e la ritorni
 // girata(es.Ciao -> oaiC)
 
-function paroleInversa(parola){
+function parolaInversa(parola){
     let Inversa= "";
 
     for( var i = parola.length -1; i >= 0; i--){
@@ -10,9 +10,7 @@ function paroleInversa(parola){
     return Inversa
 }
 
-let Inversa = paroleInversa;
+let Inversa = parolaInversa(prompt("inserisci una parola"));
 console.log(Inversa);
   
 
-// let word = prompt("inserisci una parola");
-// console.log(word);
