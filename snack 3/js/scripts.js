@@ -9,8 +9,8 @@ let parolaInversa= "";
     return parolaInversa
 }
 
-paroleInversa(word);
-console.log(word);
+paroleInversa(parolaInversa);
+console.log(parolaInversa);
   
 
 let word = prompt("inserisci una parola");
