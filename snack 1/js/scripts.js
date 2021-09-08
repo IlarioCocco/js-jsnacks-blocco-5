@@ -4,20 +4,27 @@
 
 
 let zucchineContenitore = [
-    { tipo: 1, pesoGr: 50, lunghezzaCm: 20},
-    { tipo: 2, pesoGr: 50, lunghezzaCm: 21},
-    { tipo: 3, pesoGr: 50, lunghezzaCm: 22},
-    { tipo: 4, pesoGr: 50, lunghezzaCm: 23},
-    { tipo: 5, pesoGr: 50, lunghezzaCm: 24},
-    { tipo: 6, pesoGr: 50, lunghezzaCm: 25},
-    { tipo: 7, pesoGr: 50, lunghezzaCm: 26},
-    { tipo: 8, pesoGr: 50, lunghezzaCm: 27},
-    { tipo: 9, pesoGr: 50, lunghezzaCm: 28},
-    { tipo: 10, pesoGr: 50, lunghezzaCm: 29},
-]
+    { tipo: 1, pesoGr: 50, lunghezzaCm: 10},
+    { tipo: 2, pesoGr: 50, lunghezzaCm: 12},
+    { tipo: 3, pesoGr: 50, lunghezzaCm: 14},
+    { tipo: 4, pesoGr: 50, lunghezzaCm: 15},
+    { tipo: 5, pesoGr: 50, lunghezzaCm: 16},
+    { tipo: 6, pesoGr: 50, lunghezzaCm: 17},
+    { tipo: 7, pesoGr: 50, lunghezzaCm: 18},
+    { tipo: 8, pesoGr: 50, lunghezzaCm: 19},
+    { tipo: 9, pesoGr: 50, lunghezzaCm: 20},
+    { tipo: 10, pesoGr: 50, lunghezzaCm: 21},
 
-// let zucchineSomma= {};
-let pesoGr = 50
-let lunghezzaCm = 20
-let zucchineSomma = pesoGr + 100;
-console.log(zucchineSomma);
+]
+let totalePeso = 0;
+
+for (let i= 0;  i< zucchineContenitore.length; i++){
+    totalePeso += zucchineContenitore[i].pesoGr;
+}
+
+console.log(totalePeso);
+// let totalePeso= 0;
+
+// let pesoGr = 50
+// let lunghezzaCm = 20
+// let zucchineSomma = pesoGr + 100;
