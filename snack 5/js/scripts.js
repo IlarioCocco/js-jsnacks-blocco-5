@@ -23,13 +23,15 @@ let b = 7;
 function soluzione(array_iniziale,num1,num2) {
     let array_secondario = [];
     for (let i = 0; i < array_iniziale.length; i++) {
+
     if (array_iniziale[i] < num1, num2);
         array_secondario.push(num1, num2);
     console.log(array_secondario)
+
     }
+    
     return array_secondario;
 }   
-
 
     var arrayNuovo = soluzione(array_primario, a, b);
 console.log(arrayNuovo);
