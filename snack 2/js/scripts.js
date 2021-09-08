@@ -11,11 +11,11 @@
 
 
 let zucchine_contenitore = [
+
     { tipo: 1, pesoGr: 50, lunghezzaCm: 10 },
     { tipo: 2, pesoGr: 50, lunghezzaCm: 12 },
     { tipo: 3, pesoGr: 50, lunghezzaCm: 14 },
     { tipo: 4, pesoGr: 50, lunghezzaCm: 15 },
-
     { tipo: 5, peso: 50, lunghezzaCm: 16 },
     { tipo: 6, peso: 50, lunghezzaCm: 17 },
     { tipo: 7, peso: 50, lunghezzaCm: 18 },
@@ -24,17 +24,22 @@ let zucchine_contenitore = [
 
 let zuc_corte = []; 
 let zuc_lunghe = [];
+
 let zuc_corte_peso = 0;
 let zuc_lunghe_peso = 0;
 
+
 for (let i = 0; i < zucchine_contenitore.length; i++) {
-    //If it is less than 15 cm Push into the short zucchini array
-    if (zucchineContenitore[i].lunghezzaCm < 15){
-        zuc_corte.push(zucchineContenitore[i]);
-        zuc_corte_peso += zucchineContenitore[i].pesoGr;
+        //If it is less than 15 cm Push into the short zucchine array
+    
+    if (zucchine_contenitore[i].lunghezzaCm < 15){
+        zuc_corte.push(zucchine_contenitore[i]);
+        zuc_corte_peso += zucchine_contenitore[i].pesoGr;
+        
+        //if else into long zucchine
     } else {
-        zuc_lunghe.push(zucchineContenitore[i]);
-        zuc_lunghe_peso += zucchineContenitore[i].pesoGr;
+        zuc_lunghe.push(zucchine_contenitore[i]);
+        zuc_lunghe_peso += zucchine_contenitore[i].pesoGr;
     }
 }
 
